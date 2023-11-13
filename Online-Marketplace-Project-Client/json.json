@@ -1,0 +1,123 @@
+[
+    {
+      "JobTitle": "Senior Web Developer",
+      "Category": "Web Developer",
+      "Deadline": 1680652800000,
+      "MinPrice": 50,
+      "MaxPrice": 70,
+      "Description": "Looking for an experienced web developer to build a responsive website.",
+      "Email": "webdev@example.com",
+      "ImgUrl": "/assets/image/WebDevlopment1.jfif"
+    },
+    {
+      "JobTitle": "Creative Graphic Designer",
+      "Category": "Graphic Designer",
+      "Deadline": 1679356800000,
+      "MinPrice": 250,
+      "MaxPrice": 300,
+      "Description": "Seeking a creative graphic designer for a branding project.",
+      "Email": "designer@example.com",
+      "ImgUrl": "/assets/image/GraphicDesighn1.jfif"
+    },
+    {
+      "JobTitle": "Digital Marketing Specialist",
+      "Category": "Digital Marketing",
+      "Deadline": 1680556800000,
+      "MinPrice": 15,
+      "MaxPrice": 25,
+      "Description": "Digital marketing specialist needed for online advertising campaigns.",
+      "Email": "digital@example.com",
+      "ImgUrl": "/assets/image/DigitalMarketing1.jfif"
+    },
+    {
+      "JobTitle": "Front-end Web Developer",
+      "Category": "Web Developer",
+      "Deadline": 1681132800000,
+      "MinPrice": 60,
+      "MaxPrice": 80,
+      "Description": "Front-end and back-end developer required for a website redesign project.",
+      "Email": "webdev@example.com",
+      "ImgUrl": "/assets/image/WebDevlopment2.jfif"
+    },
+    {
+      "JobTitle": "Branding Graphic Designer",
+      "Category": "Graphic Designer",
+      "Deadline": 1679972800000,
+      "MinPrice": 300,
+      "MaxPrice": 350,
+      "Description": "Logo and brand identity design project for a startup company.",
+      "Email": "designer@example.com",
+      "ImgUrl": "/assets/image/GraphicDesighn2.jfif"
+    },
+    {
+      "JobTitle": "Social Media Marketing Specialist",
+      "Category": "Digital Marketing",
+      "Deadline": 1680324800000,
+      "MinPrice": 20,
+      "MaxPrice": 30,
+      "Description": "Social media marketing expert needed to boost online presence.",
+      "Email": "marketing@example.com",
+      "ImgUrl": "/assets/image/DigitalMarketing2.jfif"
+    },
+    {
+      "JobTitle": "Full-stack Web Developer",
+      "Category": "Web Developer",
+      "Deadline": 1681852800000,
+      "MinPrice": 60,
+      "MaxPrice": 90,
+      "Description": "Full-stack developer wanted for an e-commerce website development.",
+      "Email": "webdev@example.com",
+      "ImgUrl": "/assets/image/WebDevlopment3.jfif"
+    },
+    {
+      "JobTitle": "Event Graphic Designer",
+      "Category": "Graphic Designer",
+      "Deadline": 1680624800000,
+      "MinPrice": 200,
+      "MaxPrice": 230,
+      "Description": "Poster and flyer design project for a local event.",
+      "Email": "designer@example.com",
+      "ImgUrl": "/assets/image/GraphicDesighn3.jfif"
+    },
+    {
+      "JobTitle": "Email Marketing & SEO Specialist",
+      "Category": "Digital Marketing",
+      "Deadline": 1681036800000,
+      "MinPrice": 25,
+      "MaxPrice": 35,
+      "Description": "Email marketing and SEO specialist needed for an online business.",
+      "Email": "digital@example.com",
+      "ImgUrl": "/assets/image/DigitalMarketing3.png"
+    },
+    {
+      "JobTitle": "Custom Web Application Developer",
+      "Category": "Web Developer",
+      "Deadline": 1682616000000,
+      "MinPrice": 75,
+      "MaxPrice": 85,
+      "Description": "Custom web application development for a software company.",
+      "Email": "webdev@example.com",
+      "ImgUrl": "/assets/image/WebDevlopment4.jfif"
+    },
+    {
+      "JobTitle": "Corporate Graphic Designer",
+      "Category": "Graphic Designer",
+      "Deadline": 1681569600000,
+      "MinPrice": 250,
+      "MaxPrice": 270,
+      "Description": "Infographic and presentation design for a corporate client.",
+      "Email": "designer@example.com",
+      "ImgUrl": "/assets/image/GraphicDesighn4.jfif"
+    },
+    {
+      "JobTitle": "Content Marketing Strategist",
+      "Category": "Digital Marketing",
+      "Deadline": 1681924800000,
+      "MinPrice": 20,
+      "MaxPrice": 40,
+      "Description": "Content marketing strategist required for a startup's online presence.",
+      "Email": "marketing@example.com",
+      "ImgUrl": "/assets/image/DigitalMarketing4.jfif"
+    }
+  ]
+  
