@@ -1,11 +1,23 @@
 import toast from "react-hot-toast";
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const FeedBack = () => {
-  const submitFeedback = (e) => {
-    e.preventDefault()
-    toast.success("Feedback send successfull");
-    e.target.reset()
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_sb4ypus', 'template_fro3a6a', form.current, 'OIe4QjbuRm7z3YT1R')
+      .then((result) => {
+          console.log(result.text);
+          toast.success("feedback send successfull")
+          form.current.reset()
+      }, (error) => {
+          console.log(error.text);
+      });
   };
+
   return (
     <section>
       <div className="bg-primary rounded-2xl my-8 text-white py-20">
@@ -31,7 +43,8 @@ const FeedBack = () => {
                         Have a suggestion?
                       </h4>
                       <form
-                        onSubmit={submitFeedback}
+                      ref={form}
+                        onSubmit={sendEmail}
                         id="feedbackForm"
                       >
                         <div className="relative w-full mb-3">
@@ -43,7 +56,7 @@ const FeedBack = () => {
                           </label>
                           <input
                             type="email"
-                            name="email"
+                            name="user_name"
                             id="email"
                             className="border-0 px-3 py-3 rounded text-sm shadow w-full
                     bg-gray-300 placeholder-black text-gray-800 outline-none focus:bg-gray-400"
@@ -61,7 +74,7 @@ const FeedBack = () => {
                           </label>
                           <textarea
                             maxLength="300"
-                            name="feedback"
+                            name="message"
                             id="feedback"
                             rows="4"
                             cols="80"
